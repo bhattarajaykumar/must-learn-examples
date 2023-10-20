@@ -1,0 +1,20 @@
+1. Create Maven Project
+2. Add basic spring boot dependencies
+    1. spring-boot-starter-parent
+    2. spring-boot-starter-web
+3. Default this application is running on tomcat server  on port 8080
+4. Basic annotations used in this app
+    1. @SpringBootApplication
+    2. @RestController
+    3. @RequestMapping
+    4. @GetMapping
+    5. @PathVariable
+5. Make sure controller class and it's package should be inside the base package which is ord.example
+6. Here We developed two end points or apis
+    1. http://localhost:8080/v1/greetAll
+    2. http://localhost:8080/v1/greetUser/Ajay
+7. When we develop first API we tested by starting/running Main class
+8. When we develop second API, we stopped and re ran Main class. Every time when we make code changes we have to stop and run the server agian.
+9. If we use eclipse by default it will not terminate the previous application instance so we will get port already in use error.
+10. If we use IntelliJ we will have an option Rerun the Main class so this will stop and re-run the application.
+11. We used POSTMAN tool to test these two APIs.
