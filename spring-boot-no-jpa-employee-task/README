@@ -1,0 +1,11 @@
+Using Spring boot without JPA, create a rest service with spring boot application to get List of EmployeeDetails <Employee Id, Employee Name> from DB or a file, with input parameters employeeNamePrefix and sortType
+Share the code to move on to the next steps.
+
+Scenario:
+If both input parameters has values use them and get result
+
+If employeeNamePrefix only has value, then use get matching employee details with same order as they present in DB or file
+
+If sortType only has value, get all the employees and sort by the input sortType
+
+If both inputParamer doesn’t values then get all the employees in same order as they present in File or DB
